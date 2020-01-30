@@ -1,0 +1,8 @@
+<%- include ('./partials/header') %>
+<h1>Skills List</h1>
+<ul>
+    <% skills.forEach(skill => { %>
+        <li><%=skill.title %></li>
+    <% }) %>
+</ul>
+<%- include ('./partials/footer') %>
