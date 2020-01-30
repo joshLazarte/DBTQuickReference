@@ -1,0 +1,11 @@
+Get list of DBT skills
+
+model will have name of skill and description
+
+index page will list alphabet,
+
+clicking a link will take you to all skills with that letter
+
+clicking a skill will take you to description
+
+that page will also get you results from google

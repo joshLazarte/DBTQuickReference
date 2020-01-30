@@ -1,0 +1,10 @@
+<%- include ('./partials/header') %>
+
+
+<form action="/skills" method="POST">
+  <input type="text" name="skill[title]" placeholder="Name of Skill" />
+  <input type="text" name="skill[description]" placeholder="Description" />
+  <input type="submit" value="Add Skill" />
+</form>
+
+<%- include ('./partials/footer') %>
