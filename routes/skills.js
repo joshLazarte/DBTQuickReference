@@ -15,15 +15,21 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.get('/:letter', async (req, res) => {
-  const { letter } = req.params;
-  
-  if (letter.length > 1) res.send('Only one letter');
-
+router.get('/', async (req, res) => {
   try {
-    const skills = await Skill.find({
-      "title": { $regex: '^' + letter , $options: 'i'}});
+    const skills = await Skill.find({});
     res.render('skillsList', { skills });
+  } catch (err) {
+    res.send(err);
+  }
+});
+
+router.get('/:id', async (req, res) => {
+  const { id } = req.params;
+  try {
+    const skill = await Skill.findById(id);
+    !skill && res.send('No Skill Found');
+    res.render('skill', { skill });
   } catch (err) {
     res.send(err);
   }

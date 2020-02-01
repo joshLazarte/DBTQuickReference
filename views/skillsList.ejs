@@ -1,8 +1,14 @@
 <%- include ('./partials/header') %>
-<h1>Skills List</h1>
-<ul>
-    <% skills.forEach(skill => { %>
-        <li><%=skill.title %></li>
-    <% }) %>
-</ul>
+
+<div class="container">
+    <h1 class="text-center mt-2 mb-3">Skills List</h1>
+    <ul>
+        <% skills.forEach(skill => { %>
+            <li>
+                <a href="/skills/<%= skill._id %>"><%=skill.title %></a>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
 <%- include ('./partials/footer') %>

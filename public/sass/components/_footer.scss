@@ -1,0 +1,10 @@
+.footer {
+  background-color: $color-light;
+  padding: 2rem 2rem 0.1rem 2rem;
+  color: darkgrey;
+  display: flex;
+  justify-content: flex-end;
+  p {
+    font-size: 1.4rem;
+  }
+}
