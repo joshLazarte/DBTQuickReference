@@ -24,15 +24,9 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/:id', async (req, res) => {
-  const { id } = req.params;
-  try {
-    const skill = await Skill.findById(id);
-    !skill && res.send('No Skill Found');
-    res.render('skill', { skill });
-  } catch (err) {
-    res.send(err);
-  }
-});
+router.get('/mindfulness', (req, res) => res.render('mindfulness'));
+router.get('/emotion', (req, res) => res.render('emotion'));
+router.get('/interpersonal', (req, res) => res.render('interpersonal'));
+router.get('/distress', (req, res) => res.render('distress'));
 
 module.exports = router;
