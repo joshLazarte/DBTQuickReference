@@ -198,13 +198,20 @@ main {
   .modal--open {
     display: block;
     z-index: 300;
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 95vh;
+    max-width: 95vw;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     overflow: auto;
     background-color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 5%; }
+    padding: 2rem;
+    border-radius: .4rem; }
+  .modal__title {
+    display: flex;
+    justify-content: center; }
+  .modal__arrow {
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: .7rem 1rem 0 1rem; }
