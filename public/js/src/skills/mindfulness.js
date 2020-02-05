@@ -211,6 +211,242 @@ the dance floor, one with the music and your partner, neither willful nor sittin
             Go with the flow. Respond with spontaneity.
             </li>
         </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Eyes',
+        content: `
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Lie on the ground and watch the clouds in the sky
+            </li>
+            <li class="modal__list-item">
+            Walking slowly, stopping somewhere with a view, notice flowers, trees, and nature itself
+            </li>
+            <li class="modal__list-item">
+            Sit outside. Watch who and what go by in front of you, without following them with your
+head or your eyes
+            </li>
+            <li class="modal__list-item">
+            Notice the facial expression and movements of another person. Refrain from labeling the
+person’s emotions, thoughts, or interests.
+            </li>
+            <li class="modal__list-item">
+            Notice just the eyes, lips, or hands of another person (or just one feature of an animal)
+            </li>
+            <li class="modal__list-item">
+            Pick up a leaf, a flower, or a pebble. Look at it closely, trying to see each detail.
+            </li>
+            <li class="modal__list-item">
+            Find something beautiful to look at, and spend a few minutes contemplating it
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Sounds',
+        content: `
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Stop for a moment and just listen. Listen to the texture and shape of the sounds around
+you. Listen to the silences between the sounds
+            </li>
+            <li class="modal__list-item">
+            If someone is talking, listen to the pitch of the voice, to the smoothness or roughness of the
+sounds, to the clarity or the mumbling of the speech, to the pauses between the words
+            </li>
+            <li class="modal__list-item">
+            Listen to music, observing each note as it comes and the spaces between the notes. Try
+breathing the sounds into your body and letting them flow out again on your out breath.
+            </li>
+            
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Smells',
+        content: `
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Breathing in, notice any smells around you. Bring something close to your nose, and notice
+the smells. Take it away, and then notice the smells again. Do they linger?
+            </li>
+            <li class="modal__list-item">
+            When eating, notice the aroma of the food; when cooking, notice the aroma of the spices or
+other ingredients; when bathing, smell the soap or shampoo; when walking outside, notice
+the aroma of the air; when near flowers, bend down and “smell the roses.”
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Taste',
+        content: `<p class="modal__text text-center"></p>
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Putting something in your mouth, pay attention to the taste. Keep it in your mouth, and
+notice all the taste sensations
+            </li>
+            <li class="modal__list-item">
+            Lick a lollipop or something else. Notice just the sensation of taste
+            </li>
+            <li class="modal__list-item">
+            Eat a meal, or even a part of a meal, paying attention to the taste of each mouthful.
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practicing Observing: Urges',
+        content: `<p class="modal__text text-center">When you are feeling an urge to do something impulsive</p>
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            “Urge-surf” by imagining that your urges are a surfboard and you are standing on the
+board, riding the waves
+            </li>
+            <li class="modal__list-item">
+            Notice any urge to avoid someone or something
+            </li>
+            <li class="modal__list-item">
+            Scan your entire body, and notice the sensations. Where in the body is the urge?
+            </li>
+            <li class="modal__list-item">
+            When you are chewing your food, notice when you have the urge to swallow.
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Touch',
+        content: `
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Stroke your upper lip with your fingernail. Stop stroking, and notice how long it takes before you can’t sense your upper lip at all
+            </li>
+            <li class="modal__list-item">
+            When walking, notice the sensations of walking—your feet hitting the ground and rising up
+and down. Sometimes walk very slowly and notice. Sometimes walk very fast and notice
+            </li>
+            <li class="modal__list-item">
+            When sitting, notice your thighs on the chair. Notice the curve of your knees and your back.
+            </li>
+            <li class="modal__list-item">
+            Pay attention to anything touching you. Try to feel your feet in your shoes, your body touching your clothes. Notice the sensations of your hands
+            </li>
+            <li class="modal__list-item">
+            Touch something—the wall, a fabric, a table top, a pet, a piece of fruit, a person. Notice the texture of what you feel, notice the sensations on your skin.
+            </li>
+            <li class="modal__list-item">
+            Focus your attention on the sensations in your chest, your stomach, or your shoulders.
+            </li>
+            <li class="modal__list-item">
+            Focus your attention on the place in your body where you feel tight or tense.
+            </li>
+            <li class="modal__list-item">
+            Focus your attention on the space between your eyes.
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Breath',
+        content: `<p class="modal__text text-center">Breathe evenly and gently, focusing your attention on:</p>
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            The movement of your stomach. 
+            <ul>
+            <li>As you begin to breathe in, allow your belly to rise in order to bring air into the lower half
+of your lungs</li>
+            <li>As the upper halves of your lungs begin to fill with air, your chest begins to rise.</li>
+            <li>As you breathe out, notice your belly, then notice your chest. Don’t tire yourself</li>
+            
+            </ul>
+            </li>
+            <li class="modal__list-item">
+            The pauses in your breathing.
+            
+            <ul>
+            <li>As you breathe in, notice the brief pause when your lungs have filled with air</li>
+            <li>As you breathe out, notice the brief pause when you have expelled all the air</li>
+            </ul> 
+            </li>
+            <li class="modal__list-item">
+            The sensations in your nose as you breathe in and as you breathe out.
+            
+            <ul>
+            <li>As you breathe, close your mouth and breathe in through your nose, noticing the
+sensations traveling up and down your nostrils</li>
+            </ul>
+            </li>
+            <li class="modal__list-item">
+            Your breath while walking slowly.
+            
+            <ul>
+            <li>Breathe normally. Determine the length of your breath—the exhalation and the inhalation—by the number
+of your footsteps</li>
+            <li>Continue for a few minutes. Begin to lengthen your exhalation by one step.</li>
+            <li>Do not force a longer inhalation. Let it be
+natural</li>
+            <li>Watch your inhalation carefully to see whether there is a desire to lengthen it.</li>
+            <li> Now lengthen the exhalation by one more footstep</li>
+            <li>Watch to see whether the inhalation also lengthens by one step or not. Only lengthen the inhalation when you feel that it will be comfortable</li>
+            <li>After 20 breaths, return your breath to normal</li>
+            </ul>   
+            </li>
+            <li class="modal__list-item">
+            Your breath while listening to a piece of music.
+            <ul>
+            <li>Breathe long, light, and even breaths </li>
+            <li>Do not get lost in the music, but continue to be master of your breath and yourself </li>
+            </ul>
+            
+            </li>
+            <li class="modal__list-item">
+            Your breath while listening to a friend’s words and your own replies. Continue as with music.
+            </li>
+        </ul>`
+    },
+    
+    {
+        title: 'Practice Observing: Thoughts',
+        content: `<p class="modal__text text-center"></p>
+        <ul class="modal__list">
+            <li class="modal__list-item">
+            Notice thoughts as they come into your mind.
+            <ul>
+            <li>Ask “Where do thoughts come from?”</li>
+            <li>Then watch them to see if you can see where they come into your mind</li>
+            <ul>
+            </li>
+            <li class="modal__list-item">
+            As you notice thoughts in your mind, notice the pauses between each thought.
+            </li>
+            <li class="modal__list-item">
+            Imagine that your mind is the sky and that thoughts are clouds.
+            <ul>
+            <li>Notice each thought-cloud as it drifts by, letting it drift in and out of your mind</li>
+            <li>Imagine thoughts as leaves on water flowing down a stream, as boats drifting by on the
+lake, or as train cars rolling by you</li>
+            </ul>
+            </li>
+            <li class="modal__list-item">
+            When worries go round and round in your mind, move your attention to the sensations
+in your body (those most intense right now). Then, keeping your attention on your body
+sensations, notice how long it takes for the worries to ooze away
+            </li>
+            <li class="modal__list-item">
+            Step back from your mind, as if you are on top of a mountain and your mind is just a
+boulder down below
+
+            <ul>
+            <li>Gaze at your mind, watching what thoughts come up when you are watching it</li>
+            <li>Come back into your mind before you stop</li>
+            </ul>
+            </li>
+            <li class="modal__list-item">
+            Watch for the first two thoughts that come into your mind
+            </li>
+        </ul>`
     }
     
     
