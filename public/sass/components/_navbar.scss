@@ -1,9 +1,9 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
   padding: 2rem 3rem 0 3rem;
   background-color: $color-primary;
-  line-height: 1;
 
   &__home {
     color: white;

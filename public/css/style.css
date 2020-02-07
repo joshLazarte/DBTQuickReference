@@ -23,7 +23,7 @@ body {
 
 main {
   flex: 1 0 auto;
-  min-height: auto; }
+  width: 100%; }
 
 .text-center {
   text-align: center; }
@@ -151,9 +151,9 @@ main {
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
   padding: 2rem 3rem 0 3rem;
-  background-color: #33c3f0;
-  line-height: 1; }
+  background-color: #33c3f0; }
   .navbar__home {
     color: white;
     text-decoration: none;
@@ -177,7 +177,8 @@ main {
   padding: 2rem 2rem 0.1rem 2rem;
   color: darkgrey;
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  flex-shrink: 0; }
   .footer p {
     font-size: 1.4rem; }
 
@@ -200,18 +201,22 @@ main {
     z-index: 300;
     max-height: 95vh;
     max-width: 95vw;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: auto;
     background-color: white;
     padding: 2rem;
-    border-radius: .4rem; }
+    border-radius: 0.4rem; }
+    @media only screen and (max-width: 700px) {
+      .modal--open {
+        width: 85%;
+        height: 90%; } }
   .modal__title {
     display: flex;
     justify-content: center; }
   .modal__arrow {
     font-size: 2.5rem;
     cursor: pointer;
-    margin: .7rem 1rem 0 1rem; }
+    margin: 0.7rem 1rem 0 1rem; }

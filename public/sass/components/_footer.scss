@@ -4,6 +4,7 @@
   color: darkgrey;
   display: flex;
   justify-content: flex-end;
+  flex-shrink: 0;
   p {
     font-size: 1.4rem;
   }
